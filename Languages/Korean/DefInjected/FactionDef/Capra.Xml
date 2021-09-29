@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CapraSettlement.label>카프라 정착지</CapraSettlement.label>
+  <CapraSettlement.description>카프라들의 정착지입니다, 특별한것은 없고 다른 부족민이나 사람들처럼 주로 무역, 신뢰 그리고 생존을 신경씁니다.</CapraSettlement.description>
+  <CapraSettlement.pawnsPlural>카프라들</CapraSettlement.pawnsPlural>
+  <WhiteArmy.label>백군</WhiteArmy.label>
+  <WhiteArmy.description>멀지않은 옛날에 결성된 군벌조직입니다, 이름에서 볼수있듯이 외교적이기보다는 군사적이기 때문에 멀리하는것이 좋습니다.</WhiteArmy.description>
+  <WhiteArmy.pawnsPlural>카프라들</WhiteArmy.pawnsPlural>
+</LanguageData>

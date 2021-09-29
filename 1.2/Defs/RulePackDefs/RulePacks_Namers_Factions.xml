@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Player initial namers - used initially -->
+  <RulePackDef>
+    <defName>NamerInitialSettlementColony</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;Colony</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerInitialSettlementTribe</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;Village</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <!-- Outlander -->
+  <RulePackDef>
+    <defName>NamerFactionOutlander</defName>
+    <include>
+      <li>OutlanderPlaceNameUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=3)-&gt;[nearnameinitial]</li>
+        <li>r_name-&gt;[nearnameinitial] [political_union_outlander]</li>
+        <li>r_name-&gt;[nearnameinitial] [political_adjective] [political_union_outlander]</li>
+        <li>r_name-&gt;[political_union_outlander] of [nearnameinitial]</li>
+        <li>r_name-&gt;[political_adjective] [political_union_outlander] of [nearnameinitial]</li>
+        <li>nearnameinitial(p=3)-&gt;[PlaceOutlander]</li>
+        <li>nearnameinitial-&gt;[Direction] [PlaceOutlander]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>political_union_outlander-&gt;Words/Nouns/PoliticalUnions_Outlander</li>
+        <li>political_adjective-&gt;Words/Adjectives/PoliticalUnions</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerSettlementOutlander</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=12)-&gt;[townname_wordgen]</li>
+        <li>r_name(p=6)-&gt;[townname_fixed]</li>
+        <li>r_name(p=4)-&gt;[townname_combo]</li>
+        <li>r_name-&gt;[townname_near]</li>
+        <li>topicalnoun-&gt;[Vegetable]</li>
+        <li>topicalnoun-&gt;[Game]</li>
+        <li>topicalnoun-&gt;[BodyPart]</li>
+        <li>townname_combo-&gt;[topicalnoun] [TerrainFeature]</li>
+        <li>townname_combo-&gt;[topicalnoun] [Community]</li>
+        <li>townname_combo-&gt;[topicalnoun]'s [TerrainFeature]</li>
+        <li>townname_combo-&gt;[topicalnoun]'s [Community]</li>
+        <li>townname_combo(p=2)-&gt;[concept_positive]'s [TerrainFeature]</li>
+        <li>townname_combo(p=2)-&gt;[concept_positive] [TerrainFeature]</li>
+        <li>townname_combo(p=2)-&gt;[concept_positive] [Community]</li>
+        <li>townname_combo(p=3)-&gt;[Character]'s [TerrainFeature]</li>
+        <li>townname_combo(p=3)-&gt;[Character]'s [Community]</li>
+        <li>townname_near-&gt;[nearnameinitial]-at-the-[TerrainFeature]</li>
+        <li>townname_near-&gt;[nearnameinitial]-by-the-[TerrainFeature]</li>
+        <li>townname_near-&gt;[nearnameinitial]-on-the-[TerrainFeature]</li>
+        <li>nearnameinitial-&gt;[townname_wordgen]</li>
+        <li>nearnameinitial-&gt;[Community]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][SylE]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][SylE][SylE]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][townend]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][SylE][townend]</li>
+        <li>townname_wordgen-&gt;[TerrainFeature][townend]</li>
+        <li>townname_wordgen-&gt;[topicalnoun][townend]</li>
+        <li>townend-&gt;ville</li>
+        <li>townend-&gt;town</li>
+        <li>townend-&gt;hurst</li>
+        <li>townend-&gt;bourne</li>
+        <li>townend-&gt;brad</li>
+        <li>townend-&gt;dale</li>
+        <li>townend-&gt;hope</li>
+        <li>townend-&gt;ing</li>
+        <li>townend-&gt;ness</li>
+        <li>townend-&gt;mere</li>
+        <li>townend-&gt;shaw</li>
+        <li>townend-&gt;wick</li>
+        <li>townend-&gt;ton</li>
+        <li>townend-&gt;ston</li>
+        <li>townend-&gt;os</li>
+        <li>townend-&gt;den</li>
+        <li>townend-&gt;tas</li>
+        <li>townend-&gt;wood</li>
+        <li>townend-&gt;land</li>
+        <li>townend-&gt;worth</li>
+        <li>townend-&gt;roon</li>
+        <li>townend-&gt;ron</li>
+        <li>townend-&gt;well</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>townname_fixed-&gt;Names/OutlanderTown</li>
+        <li>concept_positive-&gt;Words/Nouns/Concepts_Positive</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  <!-- Tribe -->
+  <RulePackDef>
+    <defName>NamerFactionCapra</defName>
+    <include>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;[Capraworld] [political_union_Capra]</li>
+        <li>r_name-&gt;The [Capraworld] [political_union_Capra]</li>
+        <li>r_name-&gt;The [Color] [TerrainFeature] [political_union_Capra]</li>
+        <li>r_name-&gt;[political_union_Capra] of [WordCapra]</li>
+        <li>r_name-&gt;The [Color] [Animal] [WordCapra]</li>
+        <li>r_name-&gt;The [WordCapra] of the [TerrainFeature]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>political_union_Capra-&gt;Words/Nouns/PoliticalUnions_Capra</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerSettlementCapra</defName>
+    <include>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)-&gt;[WordCapra]</li>
+        <li>r_name-&gt;[Color] [WordCapra]</li>
+        <li>r_name-&gt;[Color] [TerrainFeature]</li>
+        <li>r_name-&gt;[WordCapra] [TerrainFeature]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <!-- Pirate -->
+  <RulePackDef>
+    <defName>NamerFactionPirate</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name-&gt;The [AnimalBadass]s</li>
+        <li>r_name-&gt;The [AnimalBadass] Men</li>
+        <li>r_name-&gt;The [AnimalBadass]s of [ConceptBadass]</li>
+        <li>r_name-&gt;The [PersonBadass]s of [ConceptBadass]</li>
+        <li>r_name-&gt;The [PersonBadass]s</li>
+        <li>r_name-&gt;The [Enemy]s</li>
+        <li>r_name-&gt;The [Weapon] Men</li>
+        <li>r_name-&gt;The [Weapon]s</li>
+        <li>r_name-&gt;The [Weapon] [AnimalBadass]s</li>
+        <li>r_name-&gt;The [Weapon] [Enemy]s</li>
+        <li>r_name-&gt;The [ColorBadass] [Weapon]s</li>
+        <li>r_name-&gt;The [ColorBadass] [AnimalBadass]s</li>
+        <li>r_name-&gt;The [ColorBadass] [PersonBadass]s</li>
+        <li>r_name-&gt;The [ColorBadass] [Enemy]s</li>
+        <li>r_name-&gt;The [PersonBadass] [groupname]</li>
+        <li>r_name-&gt;The [Enemy] [Enemy]s</li>
+        <li>r_name-&gt;The [AdjectiveBadass] [groupname]</li>
+        <li>r_name-&gt;The [AdjectiveBadass] [AnimalBadass]s</li>
+        <li>r_name-&gt;The [AdjectiveBadass] [Enemy]s</li>
+        <li>r_name-&gt;The [AdjectiveBadass] [PersonBadass]s</li>
+        <li>r_name-&gt;The [PersonAlly]s of [ConceptBadass]</li>
+        <li>r_name(p=0.4)-&gt;The Eaters of [Gore]</li>
+        <li>r_name-&gt;[NamePerson]'s [Enemy]s</li>
+        <li>r_name-&gt;[NamePerson]'s [AnimalBadass]s</li>
+        <li>r_name-&gt;[NamePerson]'s [Weapon]s</li>
+        <li>r_name-&gt;[Weapon] [groupname]</li>
+        <li>r_name-&gt;[ConceptBadass] [groupname]</li>
+      </rulesStrings>
+      <rulesFiles>
+        <li>groupname-&gt;Words/Nouns/GroupNames</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerSettlementPirate</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=4)-&gt;[townname_combo]</li>
+        <li>r_name-&gt;[townname_wordgen]</li>
+        <li>townname_combo-&gt;[AnimalBadass] [geography]</li>
+        <li>townname_combo-&gt;[AnimalBadass]'s [geography]</li>
+        <li>townname_combo-&gt;[ConceptBadass] [geography]</li>
+        <li>townname_combo-&gt;[ConceptBadass]'s' [geography]</li>
+        <li>townname_combo-&gt;[PersonBadass] [geography]</li>
+        <li>townname_combo-&gt;[PersonBadass]'s [geography]</li>
+        <li>townname_combo-&gt;[Enemy]'s [geography]</li>
+        <li>townname_combo-&gt;[Enemy] [geography]</li>
+        <li>townname_combo-&gt;[Weapon]'s [geography]</li>
+        <li>townname_combo-&gt;[Weapon] [geography]</li>
+        <li>townname_combo-&gt;[ColorBadass] [geography]</li>
+        <li>geography(p=2)-&gt;[TerrainFeature]</li>
+        <li>geography-&gt;[Community]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][SylE]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][SylE][SylE]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][townendevil]</li>
+        <li>townname_wordgen(p=2)-&gt;[SylE][SylE][townendevil]</li>
+        <li>townendevil-&gt;vast</li>
+        <li>townendevil-&gt;varg</li>
+        <li>townendevil-&gt;vix</li>
+        <li>townendevil-&gt;tor</li>
+        <li>townendevil-&gt;tear</li>
+        <li>townendevil-&gt;cut</li>
+        <li>townendevil-&gt;lop</li>
+        <li>townendevil-&gt;oze</li>
+        <li>townendevil-&gt;ozzle</li>
+        <li>townendevil-&gt;latch</li>
+        <li>townendevil-&gt;lock</li>
+        <li>townendevil-&gt;burn</li>
+        <li>townendevil-&gt;sear</li>
+        <li>townendevil-&gt;shank</li>
+        <li>townendevil-&gt;hurt</li>
+        <li>townendevil-&gt;vash</li>
+        <li>townendevil-&gt;warg</li>
+        <li>townendevil-&gt;wug</li>
+        <li>townendevil-&gt;thot</li>
+        <li>townendevil-&gt;thard</li>
+        <li>townendevil-&gt;thad</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>

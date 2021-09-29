@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Capra_Colonist.label>카프라 정착민</Capra_Colonist.label>
+  <Capra_Leader.label>카프라 리더</Capra_Leader.label>
+  <Capra_Leader.labelPlural>카프라 리더들</Capra_Leader.labelPlural>
+  <Capra_Trader.label>카프라 상인</Capra_Trader.label>
+  <CapraSlave.label>카프라 노예</CapraSlave.label>
+  <CapraRefugee.label>카프라 난민</CapraRefugee.label>
+  <Capra_Soldier.label>카프라 군인</Capra_Soldier.label>
+  <WhiteArmy.label>백군</WhiteArmy.label>
+  <WhiteArmy_Gunner.label>백군 사수</WhiteArmy_Gunner.label>
+  <WhiteArmy_officer.label>백군 장교</WhiteArmy_officer.label>
+  <WhiteArmy_Commander.label>백군 지휘관</WhiteArmy_Commander.label>
+</LanguageData>

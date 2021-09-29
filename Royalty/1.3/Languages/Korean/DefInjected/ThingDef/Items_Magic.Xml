@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MagicWand.label>마법봉</MagicWand.label>
+  <MagicWand.description>매우 기본적인 마법봉이지만 여전히 단단하기에 아주 쓸모가 없는것은 아닙니다.</MagicWand.description>
+  <MagicWand_Fire.label>화염 마법봉</MagicWand_Fire.label>
+  <MagicWand_Fire.description>기본적인 화염마법을 부릴수있는 지팡이입니다, 아직은 간단한 불덩어리밖에 쏘지 못합니다.</MagicWand_Fire.description>
+  <Fireball_MagicWand.label>화염구</Fireball_MagicWand.label>
+  <Fapet_MagicWand.label>화염카펫</Fapet_MagicWand.label>
+  <MagicWand_EMP.label>EMP 마법봉</MagicWand_EMP.label>
+  <MagicWand_EMP.description>현대의 EMP와 고대의 마법을 결합한 마법봉입니다, 주로 메카노이드따위에 효과적입니다.</MagicWand_EMP.description>
+  <EMPball_MagicWand.label>EMP구</EMPball_MagicWand.label>
+  <EMPfield_MagicWand.label>EMP필드</EMPfield_MagicWand.label>
+  <Rocket_Wand.label>로켓 마법봉</Rocket_Wand.label>
+  <Rocket_Wand.description>강력한 로켓마법을 사용하는 마법봉입니다, 더이상 마법의 범주가 아닌거같지만 중요한건 아닙니다...</Rocket_Wand.description>
+  <Bullet_Rocketshower.label>로켓샤워</Bullet_Rocketshower.label>
+  <Bullet_Rocket.label>로케트</Bullet_Rocket.label>
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_MagicGlow</defName>
+    <graphicData>
+      <texPath>Things/Mote/Glow3</texPath>
+      <shaderType>Mote</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.75</fadeInTime>
+      <solidTime>1.08</solidTime>
+      <fadeOutTime>0.8</fadeOutTime>
+    </mote>
+  </ThingDef>
+</Defs>

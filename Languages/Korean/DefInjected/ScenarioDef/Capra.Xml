@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CapraNewSettlement.label>카프라 새로운 정착지</CapraNewSettlement.label>
+  <CapraNewSettlement.description>새로운 집을 찾기위해 고향을 떠나온 카프라들의 모험입니다, 고향을떠난 이유는 조금씩 다르지만 더이상 고향으로 돌아가지 못한다는것은 모두들 같아보입니다...</CapraNewSettlement.description>
+  <CapraNewSettlement.scenario.name>카프라 새로운 정착지</CapraNewSettlement.scenario.name>
+  <CapraNewSettlement.scenario.description>새로운 집을 찾기위해 고향을 떠나온 카프라들의 모험입니다, 고향을떠난 이유는 조금씩 다르지만 더이상 고향으로 돌아가지 못한다는것은 모두들 같아보입니다...</CapraNewSettlement.scenario.description>
+  <CapraNewSettlement.scenario.summary>새로운 정착지를 찾아나선 카프라들의 모험입니다</CapraNewSettlement.scenario.summary>
+  <CapraNewSettlement.scenario.parts.GameStartDialog.text>이쯤이 좋아보입니다, 짐을 던져놓고 숨을 골랐습니다.</CapraNewSettlement.scenario.parts.GameStartDialog.text>
+</LanguageData>

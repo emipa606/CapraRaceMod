@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HairDef>
+    <label>Hair_1</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Capralike/Hairs/Sheep_Hair1</texPath>
+    <defName>Hair1</defName>
+    <styleTags>
+      <li>SheepHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <label>Hair_2</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Capralike/Hairs/Sheep_Hair2</texPath>
+    <defName>Hair2</defName>
+    <styleTags>
+      <li>SheepHair</li>
+    </styleTags>
+  </HairDef>
+  <HairDef>
+    <label>Hair_3</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Capralike/Hairs/Sheep_Hair3</texPath>
+    <defName>Hair3</defName>
+    <styleTags>
+      <li>SheepHair</li>
+    </styleTags>
+  </HairDef>
+</Defs>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Capra_Child.title>카프라 어린아이</Capra_Child.title>
+  <Capra_Child.baseDescription>[PAWN_nameDef]은(는) 항상 어른들에게 평범하게 살아가라는 말을 들으면서 부유하지도 가난하지도 않았고 특별한 재주나 모난점도 없이 너무나도 무난하게 살아왔습니다.</Capra_Child.baseDescription>
+  <Capra_Poorchild.title>카프라 가난한아이</Capra_Poorchild.title>
+  <Capra_Poorchild.baseDescription>[PAWN_nameDef]은(는) 빈곤한 가정에서 태어났습니다, 집에선 항상 벌레와 곰팡이가 피었으며 매끼마다 맛없는 빵과 묽은스프를 먹어야했습니다 당연히 제대로 교육을 받을 기회도 없었고 좋은직업을 가질 기회도 없었습니다.</Capra_Poorchild.baseDescription>
+  <Capra_Libertine.title>카프라 양아치</Capra_Libertine.title>
+  <Capra_Libertine.baseDescription>[PAWN_nameDef]은(는) 빈곤하고 오래된 아파트단지에서 태어났습니다, 매일같이 신나는 음악을 틀고 훔쳐온 술을 마시며 야구방망이를 내키는대로 휘둘렀습니다, 사람들은 [PAWN_nameDef]을 보고 손가락질을 해댔지만 [PAWN_pronoun]의 관심사는 아닌거같습니다.</Capra_Libertine.baseDescription>
+  <Capra_Silverspoon.title>카프라 은수저</Capra_Silverspoon.title>
+  <Capra_Silverspoon.baseDescription>[PAWN_nameDef]은(는) 고위 공직자의 집에서 태어났습니다, 매끼도 배부르게 먹고 학교도 다닐수있었고 부모님께 정치에 대해서도 조금 배울수 있었습니다...</Capra_Silverspoon.baseDescription>
+  <Capra_Goldspoon.title>카프라 금수저</Capra_Goldspoon.title>
+  <Capra_Goldspoon.baseDescription>[PAWN_nameDef]은(는) 부유한집에서 태어났습니다, [PAWN_nameDef]의 가족이 어떻게 부자가 되었는지 아는사람들은 이미 다 죽어버렸지만 덕분에 [PAWN_pronoun]가 안전하게 자라올수 있었으니 상관은 없는거같습니다.</Capra_Goldspoon.baseDescription>
+  <Capra_Student.title>카프라 학생</Capra_Student.title>
+  <Capra_Student.baseDescription>[PAWN_nameDef]은 운좋게도 추첨에서 당첨되어 국공립학교에 다닐수있었습니다, 비록 사립학교에 비해 교육의 질이 좋지는 않았지만 그래도 [PAWN_nameDef]은 영석했고, 학교의 선생님들은 그런 [PAWN_pronoun]에게 관심을 가져주었습니다.</Capra_Student.baseDescription>
+  <Capra_Retiresoldier.title>카프라 은퇴군인</Capra_Retiresoldier.title>
+  <Capra_Retiresoldier.baseDescription>[PAWN_nameDef]은 군인이었습니다, 하지만 더이상 월급을 받지 못하게 되면서 전역을 해야 했고 [PAWN_pronoun]는 연금도 제대로 받지 못하면서 지금은 일용직을 전전하며 술통에 빠져살고있습니다.</Capra_Retiresoldier.baseDescription>
+  <Capra_drinker.title>카프라 술꾼</Capra_drinker.title>
+  <Capra_drinker.baseDescription>[PAWN_nameDef]은 술꾼입니다, [PAWN_pronoun]가 어떻게 술독에 빠져살게되었는지는 이웃의 추측이 난무합니다만 아무튼 [PAWN_nameDef]는 매일매일을 술병과 함께 보내고있고 덕분에 술마시는거빼곤 할줄아는것이 별로 없습니다...</Capra_drinker.baseDescription>
+  <Capra_quack.title>카프라 돌팔이</Capra_quack.title>
+  <Capra_quack.baseDescription>[PAWN_nameDef]은 의사간판을 달고 일하지만 실제로 할줄아는것은 군시절때 배운 응급처치와 빨간약을 처방하는것밖에 모릅니다, 하지만 몇몇 사람들은 값싸게 진료를보고 처방전을 받을수 있기에 나름대로 신뢰하고있습니다...</Capra_quack.baseDescription>
+  <Capra_GradStudent.title>카프라 대학원생</Capra_GradStudent.title>
+  <Capra_GradStudent.baseDescription>[PAWN_nameDef]은 대학원생입니다, 학부생 시절 교수님의 꼬임에 넘어가 대학원 과정을 수행하던중 결국 박사학위를 따지 못한채로 입대를 하게되었고 전역을 하고나니 학교가 사라져 의지를 잃어버린채로 좌절하게 되었습니다.</Capra_GradStudent.baseDescription>
+  <Capra_Adult.title>카프라 어른</Capra_Adult.title>
+  <Capra_Adult.baseDescription>[PAWN_nameDef]어디에나 있고 어디에나 없는 평범한 성인입니다, 모날것도 특출날것도 없이 매우 평범합니다</Capra_Adult.baseDescription>
+  <Capra_arsonist.title>카프라 방화광</Capra_arsonist.title>
+  <Capra_arsonist.baseDescription>[PAWN_nameDef]은 마약중독과 고의적인 방화로 교도소에 수감된 죄수였습니다, 원래대로라면 [PAWN_pronoun]는 죽을때까지 감옥에 갇혀있어야 했으나 교도소 예산이 후달리는 관계로 [PAWN_nameDef]은 반강제로 가석방을 허가받았습니다...</Capra_arsonist.baseDescription>
+  <Capra_Warhero.title>카프라 전쟁영웅</Capra_Warhero.title>
+  <Capra_Warhero.baseDescription>[PAWN_nameDef]은 오래전 전쟁에서 큰 공을 세운 영웅입니다. 비록 국가가 전쟁에서 패배하기는 했으나 사람들은 여전히 [PAWN_pronoun]를 영웅으로 기억하며 [PAWN_nameDef]도 여전히 자신을 명예롭게 기억하고있습니다.</Capra_Warhero.baseDescription>
+  <Capra_immigrationOfficer.title>카프라 국경출입국관리원</Capra_immigrationOfficer.title>
+  <Capra_immigrationOfficer.baseDescription>[PAWN_nameDef]은 국경출입국에서 일하는 공무원이었습니다, 직업추첨으로 일하게된 직장에서 [PAWN_pronoun]는 관련문서와 여권을 대조하면서 도장을찍고 히스테리를 부리는 국경을 통과하는 사람들을 상대해야했습니다.</Capra_immigrationOfficer.baseDescription>
+  <Capra_moonshiner.title>카프라 밀주업자</Capra_moonshiner.title>
+  <Capra_moonshiner.baseDescription>[PAWN_nameDef]는 경찰의 눈을피해 깊은숲속에서 밀주를 빛는 밀주업자입니다.</Capra_moonshiner.baseDescription>
+  <Capra_chef.title>카프라 요리사</Capra_chef.title>
+  <Capra_chef.baseDescription>[PAWN_nameDef]은 요리사입니다, 딱히 요리를 잘하는건 아닙니다.</Capra_chef.baseDescription>
+  <Capra_engineer.title>카프라 수리공</Capra_engineer.title>
+  <Capra_engineer.baseDescription>[PAWN_nameDef]는 엔지니어입니다, 은퇴한 이후로 [PAWN_pronoun]는 마을사람들의 라디오나 자동차따위를 수리해주며 지내고있습니다.</Capra_engineer.baseDescription>
+  <Capra_militaryengineer.title>카프라 공병</Capra_militaryengineer.title>
+  <Capra_militaryengineer.baseDescription>[PAWN_nameDef]는 군 엔지니어 였습니다, 군대에서 의도치않은 폭발사고로 퇴역한뒤 지금은 뒷마당에서 작은 폭발물을 터트리는 것이 취미입니다.</Capra_militaryengineer.baseDescription>
+</LanguageData>

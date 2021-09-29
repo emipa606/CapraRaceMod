@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Staliwood</defName>
+    <label>Staliwood</label>
+    <description>It's a very hard, light tree, named after the old elders who brought back their memories... \n\nStaliwood is the main ingredient of the magic wand, which can be used in architecture and art, but is not recommended and is wise to use only for the magic wand.</description>
+    <statBases>
+      <MaxHitPoints>800</MaxHitPoints>
+      <Flammability>0.8</Flammability>
+      <Nutrition>1.7</Nutrition>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Plant/CATree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>45</pathCost>
+    <blockWind>true</blockWind>
+    <ingestible>
+      <foodType>Tree</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <fertilitySensitivity>0.4</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <soundHarvesting>Harvest_Tree</soundHarvesting>
+      <soundHarvestFinish>Harvest_Tree_Finish</soundHarvestFinish>
+      <sowWork>4000</sowWork>
+      <sowMinSkill>6</sowMinSkill>
+      <sowResearchPrerequisites>
+        <li>Capra_Reseach_Staliwood</li>
+      </sowResearchPrerequisites>
+      <harvestedThingDef>CAWoodLog</harvestedThingDef>
+      <harvestWork>2000</harvestWork>
+      <harvestYield>46</harvestYield>
+      <harvestTag>Wood</harvestTag>
+      <harvestMinGrowth>0.40</harvestMinGrowth>
+      <harvestFailable>false</harvestFailable>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>45</growDays>
+      <visualSizeRange>1.3~2.0</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <interferesWithRoof>true</interferesWithRoof>
+    </plant>
+  </ThingDef>
+</Defs>

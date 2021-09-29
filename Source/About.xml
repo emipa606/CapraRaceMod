@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <!-- name, author and description are the important tags to change -->
+  <name>Capra Race (카프라종족) Mod</name>
+  <author>ssm9906</author>
+  <url>https://steamcommunity.com/sharedfiles/filedetails/?id=2513690508</url>
+  <supportedVersions>
+    <li>1.2</li>
+  </supportedVersions>
+  <packageId>ssm9906.CapraRace</packageId>
+  <description>
+	카프라 종족모드입니다, 우주의 고프닉들을 만나보세요...
+
+	버그 제보나 피드백은 토론혹은 댓글로 부탁트립니다.
+
+
+	Recommendation
+
+	Hats Display Selection -
+	[https://steamcommunity.com/sharedfiles/filedetails/?id=1542291825]
+	[KV] Show Hair With Hats or Hide All Hats -
+	[https://steamcommunity.com/sharedfiles/filedetails/?id=1180826364]
+	Apparel BodyType Resolver
+	[https://steamcommunity.com/sharedfiles/filedetails/?id=2037354634]
+
+	Provide Mode :
+	Additional Verb Mod - NukaFrog
+	Apparel BodyType Resolver - gguake
+
+	Thanks For everyone in RimWorld Korea Discord
+
+	</description>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>HumanoidAlienRaces</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>goudaquiche.MoharFramework</packageId>
+      <displayName>MoHAR framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2057001924</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Solaris.AdditionalVerbMod</packageId>
+      <displayName>Additional Verb Mod</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2037354634</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>goudaquiche.MoharFramework</li>
+    <li>Solaris.AdditionalVerbMod</li>
+  </loadAfter>
+</ModMetaData>

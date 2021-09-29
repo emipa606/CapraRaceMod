@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+    <value>
+      <li>AltarBench</li>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+    <value>
+      <li>CoveredAltarBench</li>
+    </value>
+  </Operation>
+  -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+    <value>
+      <li>CACauldron</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>*/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+    <value>
+      <li>WorkingBench</li>
+    </value>
+  </Operation>
+</Patch>

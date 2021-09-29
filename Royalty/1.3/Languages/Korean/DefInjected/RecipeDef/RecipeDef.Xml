@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMagicWand.label>마법봉 제작</MakeMagicWand.label>
+  <MakeMagicWand.description>재료를 자르고 다듬어 마법봉을 만듭니다.</MakeMagicWand.description>
+  <MakeMagicWand.jobString>마법봉을 만드는중.</MakeMagicWand.jobString>
+  <MakeFireWand.label>화염 마법봉 제작</MakeFireWand.label>
+  <MakeFireWand.description>마법봉에 화염마법을 부여합니다, 결속을 마쳤다면 준비끝입니다.</MakeFireWand.description>
+  <MakeFireWand.jobString>주문을 외우는중.</MakeFireWand.jobString>
+  <MakeEMPWand.label>EMP 마법봉 제작</MakeEMPWand.label>
+  <MakeEMPWand.description>마법봉에 EMP마법을 부여합니다, 결속을 마쳤다면 준비끝입니다.</MakeEMPWand.description>
+  <MakeEMPWand.jobString>주문을 외우는중.</MakeEMPWand.jobString>
+  <MakeRocketWand.label>로켓 마법봉 제작</MakeRocketWand.label>
+  <MakeRocketWand.description>마법봉을 잘라 샷건을 만듭니다.</MakeRocketWand.description>
+  <MakeRocketWand.jobString>주문을 외우는중.</MakeRocketWand.jobString>
+</LanguageData>

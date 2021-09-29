@@ -1,0 +1,4 @@
+# Changelog for CapraRaceMod
+
+1.0.0.0 - First publish
+

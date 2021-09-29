@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== Capra Mod - Research  ========================= -->
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_MethanolJuice</defName>
+    <label>Methanol Juice</label>
+    <description>Learn to refine methanol juice, it's simpler than you think...</description>
+    <baseCost>300</baseCost>
+    <prerequisites>
+      <li>BiofuelRefining</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_Gun</defName>
+    <label>Capra Gun</label>
+    <description>We study the different guns used by the Capras.</description>
+    <baseCost>800</baseCost>
+    <prerequisites>
+      <li>Machining</li>
+      <li>Gunsmithing</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_HeavyGun</defName>
+    <label>Capra HeavyGun</label>
+    <description>Study the heavy weapons used by the capras.</description>
+    <baseCost>2000</baseCost>
+    <prerequisites>
+      <li>Capra_Reseach_Gun</li>
+    </prerequisites>
+    <techLevel>Industrial</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>2</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+</Defs>

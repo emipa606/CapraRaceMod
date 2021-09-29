@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CACauldron.label>카프라 가마솥</CACauldron.label>
+  <CACauldron.description>마법을 부리고 물약따위를 만들때 쓰는 가마솥입니다, 사용하려면 먼저 장작을 때워넣어야 합니다.</CACauldron.description>
+  <WorkingBench.label>카프라 작업대</WorkingBench.label>
+  <WorkingBench.description>악마가닥 천으로 감싼 튼튼한 작업대입니다, 선반에는 여러 도구들이 들어있고 이 도구들이라면 뭐든지 만들수있을것 같습니다. 핵폭탄은 빼고요.</WorkingBench.description>
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FleshTypeDef>
+    <defName>Flesh_Capra</defName>
+    <corpseCategory>CorpsesHumanlike</corpseCategory>
+    <!-- <corpseCategory>CorpsesMechanoid</corpseCategory> -->
+    <!-- 
+    <ateDirect>AteInsectMeatDirect</ateDirect>
+    <ateAsIngredient>AteInsectMeatAsIngredient</ateAsIngredient>
+    <corpseCategory>CorpsesInsect</corpseCategory>
+	-->
+    <genericWounds>
+      <!-- R170 G14 B16 -->
+      <li>
+        <texture>Things/Pawn/Wounds/CapraWoundA</texture>
+        <color>0.667,0.055,0.063</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/CapraWoundB</texture>
+        <color>0.667,0.055,0.063</color>
+      </li>
+      <li>
+        <texture>Things/Pawn/Wounds/CapraWoundC</texture>
+        <color>0.667,0.055,0.063</color>
+      </li>
+    </genericWounds>
+  </FleshTypeDef>
+</Defs>

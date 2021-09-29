@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CA_HMG.label>카프라 중기관총</CA_HMG.label>
+  <CA_HMG.description>매우 무겁고 큰 중기관총입니다, 옛날에 할아버지가 가보로 여기시던것과 똑같이생겼습니다 심지어 잔기스마저도요! 추억돋네요.</CA_HMG.description>
+  <CA_Rifle.label>카프라 소총</CA_Rifle.label>
+  <CA_Rifle.description>남녀노소 누구나 다룰수있는 강력한 소총 한정입니다, 원래 개머리판도 달려있었지만 장작으로 써버렸습니다.</CA_Rifle.description>
+  <CA_Shotgun.label>카프라 샷건</CA_Shotgun.label>
+  <CA_Shotgun.description>법 때문에 소총을 사용할 수 없는 사람들을 위해 만들어진 소총 같은 산탄총으로, 소총과 똑같이 생겼고 똑같이 작동하지만, 산탄총이기 때문에 문제가 되지 않습니다.</CA_Shotgun.description>
+  <CA_Javelin.label>카프라 투창</CA_Javelin.label>
+  <CA_Javelin.description>던질수있는 투창 한정입니다, 총알은 나가지 않습니다.</CA_Javelin.description>
+  <CA_AssaultRifle.label>카프라 돌격소총</CA_AssaultRifle.label>
+  <CA_AssaultRifle.description>강력한 군용소총 한정입니다. 어떻게 민간에 풀렸는지는 아무도 모릅니다</CA_AssaultRifle.description>
+  <CA_RpS.label>카프라 알피-삽</CA_RpS.label>
+  <CA_RpS.description>알피-삽 입니다, 땅을 팔때나 터트릴때, 혹은 귀찮은 메카노이드를 터트릴때도 씁니다.</CA_RpS.description>
+</LanguageData>

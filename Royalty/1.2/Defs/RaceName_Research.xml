@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== Capra Mod - Research  ========================= -->
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_WitchCloth</defName>
+    <label>Capra WitchCloth</label>
+    <description>study clothes for wizards and witches, mostly for fashion.</description>
+    <baseCost>300</baseCost>
+    <prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>0</researchViewX>
+    <researchViewY>2</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_Furniture</defName>
+    <label>Capra Furniture</label>
+    <description>Studying basic furniture for wizards and witches, you can build a variety of furniture, including strong workstations and cauldrons.</description>
+    <baseCost>700</baseCost>
+    <prerequisites>
+      <li>Smithing</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>0</researchViewX>
+    <researchViewY>0.0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_Staliwood</defName>
+    <label>Capra Staliwood</label>
+    <description>Study how to plant Starliwood.</description>
+    <baseCost>800</baseCost>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>0</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_MagicWand</defName>
+    <label>Capra MagicWand</label>
+    <description>study how to sharpen and make magic rods, and we can also learn how to give magic to sticks.</description>
+    <baseCost>1500</baseCost>
+    <prerequisites>
+      <li>Capra_Reseach_Furniture</li>
+      <li>Capra_Reseach_Staliwood</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>1</researchViewX>
+    <researchViewY>0.0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_FireMagic</defName>
+    <label>Capra FireMagic</label>
+    <description>You learn how to give flame magic to the magic rod, and you can also learn how to bond the magic rod with the user in this user.</description>
+    <baseCost>5000</baseCost>
+    <prerequisites>
+      <li>Capra_Reseach_MagicWand</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>2</researchViewX>
+    <researchViewY>0.0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <tab>Capra_RTab</tab>
+    <defName>Capra_Reseach_EMPMagic</defName>
+    <label>Capra EMPMagic</label>
+    <description>You learn to give EMP magic to the magic rod, and you can also learn how to bond the magic rod with the user.</description>
+    <baseCost>5000</baseCost>
+    <prerequisites>
+      <li>Capra_Reseach_MagicWand</li>
+    </prerequisites>
+    <techLevel>Medieval</techLevel>
+    <!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>-->
+    <!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> -->
+    <researchViewX>2</researchViewX>
+    <researchViewY>1</researchViewY>
+  </ResearchProjectDef>
+	
+	=<ResearchProjectDef><tab>Capra_RTab</tab><defName>Capra_Reseach_RocketMagic</defName><label>Capra RocketMagic</label><description>You learn how to give rocket magic to the magic rod, and you can also learn how to bond the magic rod with the user.</description><baseCost>6000</baseCost><prerequisites><li>Capra_Reseach_EMPMagic</li></prerequisites><techLevel>Industrial</techLevel><!--<requiredResearchBuilding>ResearchBench</requiredResearchBuilding>--><!-- <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding> --><researchViewX>3</researchViewX><researchViewY>1</researchViewY></ResearchProjectDef></Defs>

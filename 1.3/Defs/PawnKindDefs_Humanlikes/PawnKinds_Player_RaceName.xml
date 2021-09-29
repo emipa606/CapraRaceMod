@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================ Capra Base ========================== -->
+  <PawnKindDef Abstract="True" Name="Capra_Player_KindBase">
+    <race>Alien_Capra</race>
+    <combatPower>40</combatPower>
+    <initialWillRange>4~5</initialWillRange>
+    <initialResistanceRange>45~54</initialResistanceRange>
+    <isFighter>false</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <modExtensions>
+      <li Class="AlienRace.Info">
+        <allowHumanBios>true</allowHumanBios>
+        <maleGenderProbability>0.5</maleGenderProbability>
+      </li>
+    </modExtensions>
+  </PawnKindDef>
+  <PawnKindDef ParentName="Capra_Player_KindBase">
+    <defName>CapraPlayerColonist</defName>
+    <label>colonist</label>
+    <defaultFactionType>CapraPlayerColony</defaultFactionType>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>Capra_ALL</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride>
+    <apparelTags>
+      <li>CA_Colonist</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2400</max>
+    </apparelMoney>
+    <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+</Defs>

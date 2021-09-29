@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="CA_ApparelBase">
+    <defName>CA_Witch</defName>
+    <description>It's a robe that wizards and witches wear on their shoulders, and the purple fabric is luxurious and the finish is better than I thought.</description>
+    <label>Capra Witch Coat</label>
+    <recipeMaker>
+      <researchPrerequisite>Capra_Reseach_WitchCloth</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Capralike/Apparel/CA_witch</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Cloth>120</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.07</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Capralike/Apparel/CA_witch</wornGraphicPath>
+      <layers>
+        <li>Shell</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="CA_ApparelBase">
+    <defName>CA_WitchVest</defName>
+    <description>It's a piece of clothing worn by witches, and in fact, there are people who don't have to dress in sync because they're wizards or witches, but they want to dress in sync.</description>
+    <label>Witch Vest</label>
+    <recipeMaker>
+      <researchPrerequisite>Capra_Reseach_WitchCloth</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Pawn/Capralike/Apparel/CA_witchVest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>80</costStuffCount>
+    <costList>
+      <Cloth>80</Cloth>
+    </costList>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>0.05</Mass>
+      <StuffEffectMultiplierArmor>0</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1</EquipDelay>
+    </statBases>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Things/Pawn/Capralike/Apparel/CA_witchVest</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+    </apparel>
+  </ThingDef>
+</Defs>

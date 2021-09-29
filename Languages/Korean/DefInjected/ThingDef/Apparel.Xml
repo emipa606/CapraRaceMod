@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <CA_Apron.label>카프라 앞치마</CA_Apron.label>
+  <CA_Apron.description>입기편한 원피스와 앞치마로 청소나 요리를할때 유용해보입니다.</CA_Apron.description>
+  <CA_Parka.label>카프라 파카</CA_Parka.label>
+  <CA_Parka.description>다양한 가죽또는 털로 만들어진 파카로 보온성이 뛰어납니다.</CA_Parka.description>
+  <CA_Gopnik.label>카프라 츄리닝</CA_Gopnik.label>
+  <CA_Gopnik.description>카프라들 사이에서 인기있는 츄리닝 입니다, 이것을 입어줘야 진정한 카프라라고 할수있습니다.</CA_Gopnik.description>
+  <CA_onepiece.label>카프라 원피스</CA_onepiece.label>
+  <CA_onepiece.description>심플한 원피스입니다, 저렴해보이지만 원단은 고급스럽습니다.</CA_onepiece.description>
+  <CA_Doctor.label>카프라 의사복</CA_Doctor.label>
+  <CA_Doctor.description>의사복입니다, 환자의 피가 튀었을때 빨리알아채기 위해 밝은색으로 염색했을뿐 도움이 되지는 않습니다.</CA_Doctor.description>
+  <CA_office.label>카프라 정장</CA_office.label>
+  <CA_office.description>사무실이나 관공서에서 유행하는 셔츠와 치마입니다, 사실 유행하지 않는다해도 입어야합니다.</CA_office.description>
+  <CA_Coat.label>카프라 코트</CA_Coat.label>
+  <CA_Coat.description>뜨거운 태양을 막아주는 코트입니다, 이것이라도 입어줘야 여름을 버틸수있습니다.</CA_Coat.description>
+  <CA_Military.label>카프라 군복</CA_Military.label>
+  <CA_Military.description>카프라가 전투에 나설때입는 옷입니다, 그저 초록색상의를 입었을뿐이지만요.</CA_Military.description>
+  <CA_Militaryvest.label>카프라 전술조끼</CA_Militaryvest.label>
+  <CA_Militaryvest.description>전투에 나설때 입는 조끼입니다, 생각보다 유용합니다! 진짜로요.</CA_Militaryvest.description>
+  <CA_sleeveless.label>카프라 민소매</CA_sleeveless.label>
+  <CA_sleeveless.description>전투에 나서기 편한 민소매셔츠와 군용바지한벌입니다.</CA_sleeveless.description>
+  <CA_Military_A.label>카프라 군복 A</CA_Military_A.label>
+  <CA_Military_A.description>백 카프라들이 입는 군복 상의와 바지한벌입니다.</CA_Military_A.description>
+  <CA_Military_B.label>카프라 군복 B</CA_Military_B.label>
+  <CA_Military_B.description>백 카프라들이 입는 군복 상의와 바지한벌입니다, 근접전투원의 구분을위해 빨간색으로 염색했습니다.</CA_Military_B.description>
+  <CA_LongCoat.label>카프라 롱코트</CA_LongCoat.label>
+  <CA_LongCoat.description>매우 두껍고 무거운 코트입니다, 안에 방탄재질도 덧대서 튼튼합니다.</CA_LongCoat.description>
+  <CA_MilihatA.label>카프라 군모 A</CA_MilihatA.label>
+  <CA_MilihatA.description>각진 군용모입니다, 매우 불편하지만 그 위압감만은 대단합니다.</CA_MilihatA.description>
+</LanguageData>

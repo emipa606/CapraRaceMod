@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <BodyPartDef>
+    <defName>left_horn</defName>
+    <label>left horn</label>
+    <hitPoints>30</hitPoints>
+  </BodyPartDef>
+  <BodyPartDef>
+    <defName>right_horn</defName>
+    <label>right horn</label>
+    <hitPoints>30</hitPoints>
+  </BodyPartDef>
+</Defs>

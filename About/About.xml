@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Capra Race (카프라종족) Mod (Continued)</name>
+  <packageId>Mlie.CapraRaceMod</packageId>
+  <author>ssm9906</author>
+  <url>https://github.com/emipa606/CapraRaceMod</url>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>erdelf.HumanoidAlienRaces</packageId>
+      <displayName>HumanoidAlienRaces</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+      <downloadUrl>https://github.com/erdelf/AlienRaces/releases/latest</downloadUrl>
+    </li>
+    <li>
+      <packageId>goudaquiche.MoharFramework</packageId>
+      <displayName>MoHAR framework</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2057001924</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>gguake.apparelbodyresolver</packageId>
+      <displayName>Apparel BodyType Resolver</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2037354634</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>Solaris.AdditionalVerbMod</packageId>
+      <displayName>Additional Verb Mod</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1654925331</steamWorkshopUrl>
+      <downloadUrl>https://github.com/solaris0115/AdditionalVerbMod/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>erdelf.HumanoidAlienRaces</li>
+    <li>goudaquiche.MoharFramework</li>
+    <li>gguake.apparelbodyresolver</li>
+    <li>Solaris.AdditionalVerbMod</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of ssm9906s mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2513690508
+
+- Fixed the vanilla overwrites
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/CapraRaceMod][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+Capra Race Mode, meet the Gopnik of the universe...
+
+Please discuss or comment on bug reports or feedback.
+        
+        Recommendation
+
+          Royalty
+
+          Hats Display Selection -
+            [https://steamcommunity.com/sharedfiles/filedetails/?id=1542291825]
+          [KV] Show Hair With Hats or Hide All Hats -
+            [https://steamcommunity.com/sharedfiles/filedetails/?id=1180826364]
+          Apparel BodyType Resolver
+	    [https://steamcommunity.com/sharedfiles/filedetails/?id=2037354634]  
+  
+	Provide Mode : 
+        Additional Verb Mod - NukaFrog
+	Apparel BodyType Resolver - gguake
+
+	Thanks For everyone in RimWorld Korea Discord
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>

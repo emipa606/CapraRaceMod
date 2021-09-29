@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RulePackDef>
+    <defName>NamerCapraUtility</defName>
+    <rulePack>
+      <rulesFiles>
+        <li>NameCapraMaleFirst-&gt;Names/Capra_First_Male</li>
+        <li>NameCapraFemaleFirst-&gt;Names/Capra_First_Female</li>
+        <li>NameCapraUnisexLast-&gt;Names/Capra_Last_Unisex</li>
+        <li>NameCapraMaleNick-&gt;Names/Capra_Nick_Female</li>
+        <li>NameCapraFemaleNick-&gt;Names/Capra_Nick_Male</li>
+        <li>NameCapraUnisexNick-&gt;Names/Capra_Nick_Unisex</li>
+      </rulesFiles>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerCapraMale</defName>
+    <include>
+      <li>NamerCapraUtility</li>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=6)-&gt;[NameCapraMaleFirst] '[NameCapraMaleNick]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=5)-&gt;[NameCapraMaleFirst] '[NameCapraUnisexNick]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=4)-&gt;[NameCapraMaleFirst] '[AnimalBadass]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=3)-&gt;[NameCapraMaleFirst] '[Color]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=2)-&gt;[NameCapraMaleFirst] [NameCapraUnisexLast]</li>
+        <!-- <li>r_name(p=6)->[NamePersonMale]</li> -->
+        <li>r_name-&gt;[exoticname]</li>
+        <li>exoticname(p=2)-&gt;[AdjectiveBadass]</li>
+        <li>exoticname(p=2)-&gt;[PersonBadass]</li>
+        <li>exoticname-&gt;[Enemy]</li>
+        <li>exoticname-&gt;[ConceptAny]</li>
+        <li>exoticname-&gt;[Color]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  <RulePackDef>
+    <defName>NamerCapraFemale</defName>
+    <include>
+      <li>NamerCapraUtility</li>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=6)-&gt;[NameCapraFemaleFirst] '[NameCapraFemaleNick]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=6)-&gt;[NameCapraFemaleFirst] '[NameCapraUnisexNick]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=6)-&gt;[NameCapraFemaleFirst] '[AnimalBadass]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=6)-&gt;[NameCapraFemaleFirst] '[Color]' [NameCapraUnisexLast]</li>
+        <li>r_name(p=6)-&gt;[NameCapraFemaleFirst] [NameCapraUnisexLast]</li>
+        <!-- <li>r_name(p=6)->[NamePersonFemale]</li> -->
+        <li>r_name-&gt;[exoticname]</li>
+        <li>exoticname(p=2)-&gt;[AdjectiveBadass]</li>
+        <li>exoticname(p=2)-&gt;[PersonBadass]</li>
+        <li>exoticname-&gt;[Enemy]</li>
+        <li>exoticname-&gt;[ConceptAny]</li>
+        <li>exoticname-&gt;[Color]</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+</Defs>
